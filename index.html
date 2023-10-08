@@ -3,17 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font awsome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- tailwindcss -->
     <link rel="stylesheet" href="./assets/css/output.css">
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="bg-green-300 p-14">
+    <h1 class="font-black text-center mb-5">WhatsApp UI</h1>
+    <section class="bg-white w-96">
+        <div class="bg-emerald-800 text-white px-3 py-5 flex items-center justify-between">
+            <h4 class="text-2xl">WhatsApp</h4>
+            <div class="flex gap-8">
+                <i class="fa-solid fa-camera"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </div>
+            <div class="bg-emerald-800 text-white flex items-center justify-between pl-3 pr-10 pb-4">
+                <i class="fa-solid fa-users"></i>
+                <h4>Chats <span class="rounded-full bg-white text-emerald-800 w-5 h-5 p-0.5">10</span></h4>
+                <h4>Updates</h4>
+                <h4>Calls</h4>
+            </div>
+    </section>
 
 
 
 
-    <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
